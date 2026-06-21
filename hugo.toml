@@ -1,0 +1,70 @@
+baseURL = "https://bakhtiararifinid.github.io/"
+locale = "en-us"
+title = "Bakhtiar Arifin"
+theme = "PaperMod"
+
+[pagination]
+  pagerSize = 5
+
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "Personal blog of Bakhtiar Arifin"
+  author = "Bakhtiar Arifin"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Bakhtiar 👋"
+    Content = "Welcome to my personal blog. I write about software, projects, and things I'm learning."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/bakhtiararifinid"
+  [[params.socialIcons]]
+    name = "email"
+    url = "mailto:bakhtiararifinid@gmail.com"
+  [[params.socialIcons]]
+    name = "rss"
+    url = "index.xml"
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 10
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 20
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 30
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 40
