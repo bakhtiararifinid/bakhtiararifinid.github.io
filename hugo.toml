@@ -33,9 +33,30 @@ enableEmoji = true
   ShowToc = true
   TocOpen = false
 
-  [params.homeInfoParams]
-    Title = "Hi, I'm Bakhtiar 👋"
-    Content = "Welcome to my personal blog. I write about software, projects, and things I'm learning."
+  [params.assets]
+    favicon = "/favicon.svg"
+    favicon16x16 = "/favicon.svg"
+    favicon32x32 = "/favicon.svg"
+    apple_touch_icon = "/favicon.svg"
+    safari_pinned_tab = "/favicon.svg"
+
+  [params.profileMode]
+    enabled = true
+    title = "Bakhtiar Arifin"
+    subtitle = "I write about software, projects, and things I'm learning."
+    imageUrl = "/images/profile.svg"
+    imageWidth = 120
+    imageHeight = 120
+    imageTitle = "Bakhtiar Arifin"
+    [[params.profileMode.buttons]]
+      name = "Posts"
+      url = "/posts/"
+    [[params.profileMode.buttons]]
+      name = "Tags"
+      url = "/tags/"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
 
   [[params.socialIcons]]
     name = "github"
