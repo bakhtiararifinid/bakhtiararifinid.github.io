@@ -32,6 +32,11 @@ enableEmoji = true
   ShowCodeCopyButtons = true
   ShowToc = true
   TocOpen = false
+  mainSections = ["posts"]
+
+  [params.homeInfoParams]
+    Title = "Hi, I'm Bakhtiar 👋"
+    Content = "I write about software, projects, and things I'm learning."
 
   [params.assets]
     favicon = "/favicon.svg"
@@ -41,7 +46,7 @@ enableEmoji = true
     safari_pinned_tab = "/favicon.svg"
 
   [params.profileMode]
-    enabled = true
+    enabled = false
     title = "Bakhtiar Arifin"
     subtitle = "I write about software, projects, and things I'm learning."
     imageUrl = "/images/profile.svg"
